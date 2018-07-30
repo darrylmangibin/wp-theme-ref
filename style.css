@@ -1,0 +1,376 @@
+/*
+Theme Name: Custom Theme
+Theme URI: https://antifaty.co/
+Author: Darryl
+Author URI: https://antifaty.co/
+Description: Custom Theme;
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: darrylspa
+
+*/
+
+h2 {
+	font-size: 2.4rem;
+}
+h3 {
+	font-size: 2rem;
+}
+h3 span {
+	font-size: 3rem;
+}
+h2 span{
+	font-size: 3rem;
+
+}
+h2,
+h3 {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	line-height: 2.4rem;
+}
+h2 span,
+h3 span {
+	font-family: 'Italianno', cursive;
+	display: block;
+	color: #e082a8;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ebebeb;
+	font-family: 'Raleway', sans-serif ;
+}
+
+/*NAVIGATION*/
+.navigation {
+	background-color: #8ed3cc;
+}
+
+.main-nav {
+	background-image: url(img/border_horizontal.png),
+					  url(img/border_horizontal.png);
+	background-repeat: repeat-x;
+	background-position: 0px top, 0px bottom;
+	justify-content: center;
+}
+@media (max-width: 992px) {
+
+}
+
+.navbar-light .navbar-toggler{
+	border:none;
+}
+
+.bar1, .bar2, .bar3 {
+	text-align: center;
+    width: 35px;
+    height: 5px;
+    background-color: #e082a8;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.main-nav .nav-link {
+	color: #fff;
+	font-size: 1.2rem;
+	transition: background-color .3s ease;
+	font-family: 'Raleway', sans-serif;
+}
+.main-nav .nav-link:hover,
+.current_page_item {
+	background-color: #39a69b;
+	border-radius: 10px;
+}
+
+/*CAROUSEL*/
+.carousel-caption h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff;
+}
+
+/*New Website*/
+.new-website p {
+	font-size: 1.6rem;
+	color: #979797;
+	font-family: 'Lato', sans-serif;
+}
+/*image-links*/
+.image-links img {
+	border: 6px solid #fff;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.image-links img:hover {
+	-webkit-transform: scale(1.2) rotate(10deg);
+	-moz-transform: scale(1.2) rotate(10deg);
+	transform: scale(1.2) rotate(10deg);
+}
+.image-info {
+	background-color: #fff;
+	margin-top: -50px;
+}
+.image-info .btn-success, 
+.view-products {
+	background-color: #e082a8;
+	border: none;
+	border-radius: 0;
+	transition: all .3s ease;
+}
+.image-info .btn-success:hover,
+.view-products:hover {
+	background-color: #ca5b88;
+}
+
+/*Business hours*/
+.business-hours {
+	background-color: #8ed3cc;
+	color: #fff;
+}
+
+.business-hours h2 {
+	color: #fff;
+}
+
+.bg-hours {
+	background-repeat: no-repeat;
+	min-height: 300px;
+	background-position: center;
+	background-size: cover;
+}
+
+.table {
+	border: 2px solid #e082a8;
+}
+
+.table td,
+.table th {
+	border: 0;
+}
+
+.table tbody tr td {
+	padding: .35rem;
+}
+.table .table-danger,
+.table .table-danger:hover {
+	background-color: #e082a8;
+}
+
+/*Products*/
+.products .card {
+	border: none;
+}
+.products .card a {
+	color: #000;
+	text-decoration: none;
+}
+
+.products .card h3 {
+	font-size: 1.3rem;
+	color: #e082a8;
+}
+.products .card p {
+	font-size: 0.8rem;
+}
+
+.card-body p.price {
+	font-size: 1.5rem;
+	font-family: 'Lato', sans-serif;
+	color: #979797;
+}
+
+/*Appointment*/
+.appointment {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	color: #fff;
+}
+@media (min-width: 992px) {
+	.appointment {
+		background-size: cover;
+	}
+}
+.appointment h3 {
+	font-size: 3.5rem;
+	color: #fff;
+	line-height: 4rem;
+}
+@media(max-width: 480px) {
+	.appointment h3 {
+		font-size: 2.5rem;
+	}
+}
+
+.appointment p {
+	line-height: 2.6rem;
+}
+.appointment .btn-primary {
+	background-color: #8ed3cc;
+	border:none;
+	border-radius: 0;
+	padding: 1rem 5rem;
+	font-family: 'Lato', sans-serif;
+}
+.appointment .btn-primary:hover {
+	background-color: #68bcb5;
+}
+
+
+/*FOOTER*/
+.site-footer p.copyright {
+	font-family: 'Lato', sans-serif;
+	color: #979797;
+}
+
+.footer-hr {
+	border-top: 2px solid rgba(0,0,0,.1);
+}
+
+/*SOCIAL*/
+.socials ul {
+	list-style: none;
+}
+.socials ul li {
+	position: relative;
+	display: inline-block;
+}
+
+.socials ul li a::before {
+	font-family: 'FontAwesome';
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0.4rem;
+	content: '\f08e';
+	color: #e082a8;
+	-webkit-font-smoothing: antialiased;
+	font-size: 2rem
+}
+
+.socials ul li a[href*="facebook.com"]::before {
+	content: '\f230';
+}
+.socials ul li a[href*="twitter.com"]::before {
+	content: '\f081';
+}
+.socials ul li a[href*="instagram.com"]::before {
+	content: '\f16d';
+}
+.socials ul li a[href*="pinterest.com"]::before {
+	content: '\f0d2';
+}
+.socials ul li a[href*="youtube.com"]::before {
+	content: '\f16a';
+}
+
+/*About Us*/
+.hero {
+	position: relative;
+}
+.hero h2 {
+	position: absolute;
+	background-color: #8ed3cc;
+	right:0px;
+	bottom: 3rem;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	padding: 1rem 2rem 1rem 6rem;
+	font-size: 3rem;
+}
+@media (max-width: 768px) {
+	.hero h2 {
+		position: static;
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 700;
+		padding: 1rem 3rem;
+	}
+
+}
+.main-content p{
+	line-height: 2rem;
+}
+
+.hours {
+	background-color: #8ed3cc;
+	color: #fff;
+}
+.hours h2 {
+	color: #fff;
+}
+.hours p {
+	font-family: 'Lato', sans-serif;
+}
+
+/*Services*/
+#services .card-header {
+	background-color: #e082a8;
+}
+#services h3 a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8rem;
+}
+
+.card-body p {
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+
+aside {
+	background-color: #8ed3cc;
+	color: #fff;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+	background-clip: content-box;
+}
+aside h3, aside h2 {
+	color:#fff;
+}
+
+.coupon {
+	border: 2px dashed #fff;
+	margin-top: 3rem;
+}
+.coupon p {
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+}
+.price {
+	font-size: 2rem;
+}
+
+/*contact form*/
+.contact-form {
+	border:2px solid #9a9a9a;
+	background-color: #fff;
+}
+.contact-form .btn-primary {
+	background-color: #8ed3cc;
+	border: none;
+	border-radius: 0;
+	padding: 1rem 6rem;
+}
+.contact-form .btn-primary:hover{
+	background-color: #6bbdb5;
+}
